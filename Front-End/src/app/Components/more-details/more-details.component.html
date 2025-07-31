@@ -1,0 +1,48 @@
+<app-header></app-header>
+
+<div class="container">
+
+  <div class="article">
+    <div class="picture">
+      <img src="{{ currentContent.picture }}" width="70%" #picture>
+      <h2 #title>{{ currentContent.title }}</h2>
+    </div>
+
+    <div class="text">
+      <em>Definition:</em>
+      <div class="definition" #definition>
+        {{ currentContent.definition }}
+      </div>
+      <br>
+      <br>
+      <em>Planting:</em>
+      <div class="planting" #planting>
+        {{ currentContent.planting }}
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <ul>
+      <div (click)="switch(1)">Rose: article and information...</div>
+      <div (click)="switch(2)">Sunflower: article and information...</div>
+      <div (click)="switch(3)">Tulip: article and information...</div>
+      <div (click)="switch(4)">Carnation: article and information...</div>
+      <div (click)="switch(5)">Cherry: article and information...</div>
+      <div (click)="switch(6)">Daffodil: article and information...</div>
+      <div (click)="switch(1)">Daisy: article and information...</div>
+      <div (click)="switch(1)">Hibiscus: article and information...</div>
+      <div (click)="switch(1)">Lilium: article and information...</div>
+      <div (click)="switch(1)">Orchid: article and information...</div>
+      <div (click)="switch(1)">Aster: article and information...</div>
+      <div (click)="switch(1)">Lily: article and information...</div>
+      <div (click)="switch(1)">Marigold : article and information...</div>
+      <div (click)="switch(1)">Pansy: article and information...</div>
+      <div (click)="switch(1)">Peony: article and information...</div>
+      <div (click)="switch(1)">Poppy: article and information...</div>
+      <div (click)="switch(1)">Snapdragon: article and information...</div>
+      <div (click)="switch(1)">Zinnia: article and information...</div>
+    </ul>
+  </div>
+
+</div>

@@ -1,0 +1,33 @@
+.container {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.sidebar{
+  width: 30%;
+}
+
+.sidebar * {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+img {
+  height: fit-content;
+}
+
+.picture{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

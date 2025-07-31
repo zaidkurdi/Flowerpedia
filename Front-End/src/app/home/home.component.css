@@ -1,0 +1,16 @@
+app-main-page{
+  height: 89vh;
+  display: block;
+}
+
+app-explore{
+  display: block;
+  height: 100vh;
+}
+
+app-fun-fact{
+  display: block;
+  height: 80vh;
+  width: 100%;
+  margin-top: 100px;
+}

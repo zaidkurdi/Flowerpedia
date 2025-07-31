@@ -1,0 +1,8 @@
+<carousel [noPause]="false" [isAnimated]="true" [interval]="2000" id="image-carousel">
+  <slide *ngFor="let image of images">
+    <div class="img-container">
+      <img src="{{ image.image }}" width="70%">
+    </div>
+    <div class="title">{{ image.title }}</div>
+  </slide>
+</carousel>

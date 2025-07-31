@@ -1,0 +1,19 @@
+<div class="head-title">Fun Fact</div>
+
+
+<carousel [noPause]="false" [isAnimated]="true" [interval]="4000" id="image-carousel">
+  <slide *ngFor="let fact of facts">
+
+    <div class="container">
+
+      <div class="img-container">
+        <img src="{{ fact.image }}" width="30%">
+        <div class="title">{{ fact.title }}</div>
+      </div>
+
+      <div class="fact">{{ fact.fact }}</div>
+
+    </div>
+
+  </slide>
+</carousel>

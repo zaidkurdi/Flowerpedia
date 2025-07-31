@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:wght@700&family=Roboto+Condensed:wght@700&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.carousel-control{
+  display: none !important;
+}
+
+.carousel-indicators{
+  display: none;
+}

@@ -1,0 +1,34 @@
+#image-carousel {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 25px;
+}
+
+.fact{
+  display: flex;
+  align-items: center;
+}
+
+.head-title {
+  text-align: center;
+  font-size: 30px;
+  padding: 40px 0;
+}

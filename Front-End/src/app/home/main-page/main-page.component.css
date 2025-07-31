@@ -1,0 +1,16 @@
+div {
+  display: flex;
+  height: 89vh;
+}
+
+app-image-slideshow {
+  display: flex;
+  align-items: center;
+  width: 45%;
+}
+
+app-main-page-content{
+  display: flex;
+  align-items: center;
+  width: 70%;
+}

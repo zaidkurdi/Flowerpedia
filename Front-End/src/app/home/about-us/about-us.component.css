@@ -1,0 +1,12 @@
+.container{
+  /* background-color: rgb(219, 219, 219); */
+  width: 100%;
+  border-top: 0.5px solid black;
+  padding: 40px 0;
+}
+
+.social{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+.content-container {
+  width: 60%;
+  margin-left: 40px;
+}
+
+.wlc-massege {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.explore-btn {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: solid 2px transparent;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.explore-btn:hover{
+  background-color: white;
+  color: black;
+  border: solid 2px black;
+}

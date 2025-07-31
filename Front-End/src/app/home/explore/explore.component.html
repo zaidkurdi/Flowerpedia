@@ -1,0 +1,63 @@
+<div class="explore-title">Explore</div>
+
+<mat-tab-group dynamicHeight>
+
+  <mat-tab class="mat-tab"  label="First Collection">
+    <div class="container">
+      <div class="current-flower">
+        <img src="{{ currentFlowerInfo.Image }}" width="60%">
+        <div class="current-title"> {{ currentFlowerInfo.title }} </div>
+        <p> {{ currentFlowerInfo.describtion }} </p>
+        <a routerLink="/more-details" target="_blank" class="more-details-btn">More Details</a>
+      </div>
+
+      <div class="collection">
+        <a (click)="switchCurrentFlower(picture, title, describtion)" *ngFor="let image of Collection_1" #e>
+          <img src="{{ image.image }}" width="50%" #picture>
+          <div style="font-size: 16px;" #title> {{ image.title }} </div>
+          <div style="display: none;" #describtion> {{ image.describtion }} </div>
+        </a>
+      </div>
+    </div>
+  </mat-tab>
+
+  <mat-tab class="mat-tab" label="Second Collection">
+    <div class="container">
+      <div class="current-flower">
+        <img src="{{ currentFlowerInfo.Image }}" width="60%">
+        <div class="current-title"> {{ currentFlowerInfo.title }} </div>
+        <p> {{ currentFlowerInfo.describtion }} </p>
+        <a routerLink="/more-details" target="_blank" class="more-details-btn">More Details</a>
+      </div>
+
+      <div class="collection">
+        <div (click)="switchCurrentFlower(picture, title, describtion)" *ngFor="let image of Collection_2">
+          <img src="{{ image.image }}" width="50%" #picture>
+          <div style="font-size: 16px;" #title> {{ image.title }} </div>
+          <div style="display: none;" #describtion> {{ image.describtion }} </div>
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+
+  <mat-tab class="mat-tab" label="Third Collection">
+    <div class="container">
+      <div class="current-flower">
+        <img src="{{ currentFlowerInfo.Image }}" width="60%">
+        <div class="current-title"> {{ currentFlowerInfo.title }} </div>
+        <p> {{ currentFlowerInfo.describtion }} </p>
+        <a routerLink="/more-details" target="_blank" class="more-details-btn">More Details</a>
+      </div>
+
+      <div class="collection">
+        <div (click)="switchCurrentFlower(picture, title, describtion)" *ngFor="let image of Collection_3">
+          <img src="{{ image.image }}" width="50%" #picture>
+          <div style="font-size: 16px;" #title> {{ image.title }} </div>
+          <div style="display: none;" #describtion> {{ image.describtion }} </div>
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+
+</mat-tab-group>
+

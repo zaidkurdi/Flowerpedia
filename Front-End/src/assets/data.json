@@ -1,0 +1,101 @@
+{
+  "collection_1": [
+    {
+      "image": "assets/pics/Rose.png",
+      "title": "Rose",
+      "describtion": "The rose is a fragrant and symbolically rich flower, cherished for its beauty and cultural significance",
+      "details": {}
+    },
+    {
+      "image": "assets/pics/Sunflower.png",
+      "title": "Sunflower",
+      "describtion": "Vibrant and bold, the sunflower is a symbol of joy with its large, golden petals radiating around a central disc."
+    },
+    {
+      "image": "assets/pics/Tulip.png",
+      "title": "Tulip",
+      "describtion": "Graceful and diverse, the tulip signifies elegance and has a variety of colors, each conveying different emotions."
+    },
+    {
+      "image": "assets/pics/Carnation.png",
+      "title": "Carnation",
+      "describtion": "Carnations, in various hues, represent love and fascination, making them a popular choice for expressing affection"
+    },
+    {
+      "image": "assets/pics/Cherry Blossom.png",
+      "title": "Cherry",
+      "describtion": "Delicate and fleeting, cherry blossoms symbolize beauty and the transient nature of life in Japanese culture"
+    },
+    {
+      "image": "assets/pics/Daffodil.png",
+      "title": "Daffodil",
+      "describtion": "Bright and cheerful, daffodils herald the arrival of spring, symbolizing renewal and the promise of new beginnings"
+    }
+  ],
+
+  "collection_2": [
+    {
+      "image": "assets/pics/Daisy.png",
+      "title": "Daisy",
+      "describtion": "Simple and charming, daisies are associated with purity and innocence, often evoking feelings of simplicity and loyalty"
+    },
+    {
+      "image": "assets/pics/Hibiscus.png",
+      "title": "Hibiscus",
+      "describtion": "Exotic and vibrant, the hibiscus is known for its large, showy flowers and is a symbol of beauty and femininity"
+    },
+    {
+      "image": "assets/pics/Lilium.png",
+      "title": "Lilium",
+      "describtion": "Elegance personified, lilies are versatile flowers that symbolize purity, renewal, and the transience of life."
+    },
+    {
+      "image": "assets/pics/Orchid.png",
+      "title": "Orchid",
+      "describtion": "Exotic and alluring, orchids represent love, beauty, and strength, making them a symbol of rare and delicate charm"
+    },
+    {
+      "image": "assets/pics/Aster.png",
+      "title": "Aster",
+      "describtion": "Asters, with their star-like blooms, convey a message of love and patience, adding a touch of magic to gardens"
+    },
+    {
+      "image": "assets/pics/Lily.png",
+      "title": "Lily",
+      "describtion": "Majestic and regal, lilies symbolize purity, virtue, and the restored innocence of the soul."
+    }
+  ],
+
+  "collection_3": [
+    {
+      "image": "assets/pics/Daisy.png",
+      "title": "Daisy",
+      "describtion": "Simple and charming, daisies are associated with purity and innocence, often evoking feelings of simplicity and loyalty"
+    },
+    {
+      "image": "assets/pics/Hibiscus.png",
+      "title": "Hibiscus",
+      "describtion": "Exotic and vibrant, the hibiscus is known for its large, showy flowers and is a symbol of beauty and femininity"
+    },
+    {
+      "image": "assets/pics/Lilium.png",
+      "title": "Lilium",
+      "describtion": "Elegance personified, lilies are versatile flowers that symbolize purity, renewal, and the transience of life."
+    },
+    {
+      "image": "assets/pics/Orchid.png",
+      "title": "Orchid",
+      "describtion": "Exotic and alluring, orchids represent love, beauty, and strength, making them a symbol of rare and delicate charm"
+    },
+    {
+      "image": "assets/pics/Aster.png",
+      "title": "Aster",
+      "describtion": "Asters, with their star-like blooms, convey a message of love and patience, adding a touch of magic to gardens"
+    },
+    {
+      "image": "assets/pics/Lily.png",
+      "title": "Lily",
+      "describtion": "Majestic and regal, lilies symbolize purity, virtue, and the restored innocence of the soul."
+    }
+  ]
+}
